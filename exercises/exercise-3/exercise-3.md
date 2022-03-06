@@ -6,6 +6,7 @@ _Need some help? Refresh your memory with [this article](https://www.freecodecam
 - Log each individual item to the console.
 - Log the total cost of the order to the console.
 
+
 ## Expected result
 
 ```

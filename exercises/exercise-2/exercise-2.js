@@ -1,5 +1,4 @@
-let hogwarts = [
-  {
+let hogwarts = [{
     firstName: "Harry",
     lastName: "Potter",
     house: "Gryffindor",
@@ -70,3 +69,44 @@ let hogwarts = [
     occupation: "Teacher",
   },
 ];
+
+
+
+
+console.log("-people who belongs to Gryffindor house:")
+
+function peopleOfGryffindorHouse(hogwarts) {
+  for (let each in hogwarts) {
+    let {
+      firstName,
+      lastName,
+      house,
+      pet,
+      occupation
+    } = hogwarts[each];
+
+    if (house == "Gryffindor") {
+      console.log(`${firstName} ${lastName}`);
+    }
+  }
+}
+peopleOfGryffindorHouse(hogwarts);
+
+console.log("-people who have pets:")
+
+function peopleOfGryffindorHouse(hogwarts) {
+  for (let each in hogwarts) {
+    let {
+      firstName,
+      lastName,
+      house,
+      pet,
+      occupation
+    } = hogwarts[each];
+
+    if (pet !== null) {
+      console.log(`${firstName} ${lastName}`)
+    }
+  }
+}
+peopleOfGryffindorHouse(hogwarts);

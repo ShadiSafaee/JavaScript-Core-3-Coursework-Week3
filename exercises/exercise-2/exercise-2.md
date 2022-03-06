@@ -11,6 +11,7 @@ For each character you have the following information:
 - Pet
 - Occupation
 
+
 ## Task 1
 
 - In `exercise-2.js` write a program that will take the `hogwarts` array as input and display the names of the people who belong to the Gryffindor house.
